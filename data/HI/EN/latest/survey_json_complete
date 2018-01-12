@@ -6,7 +6,8 @@
 		"lang": "EN",
 		"progressBarLocation": "top",
 		"progressBarType": "none",
-        "thankYouPageText": "<h2>You have successfully completed the Survey!.<\/h2> <h2>MAHALO!<\/h2> <h2>Please return this tablet back to the front desk.<\/h2>",
+        "thankYouPageText": "<h2>You have successfully completed the Survey!.<\/h2> <h2><a href=\"www.google.com\">MAHALO!<\/a><\/h2> <h2>Please return this tablet back to the front desk.<\/h2>",
+		"thankYouPageButtonText": "EXIT"
 		"pages": [
 			{
 				"name": "page1",

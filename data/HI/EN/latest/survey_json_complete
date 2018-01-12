@@ -1,1 +1,707 @@
-{"survey":{"title":"Community Dwelling Beneficiary, Self Assessment","stratification_file":"data/HI/stratification_files/0-0-2/survey_stratification","version":"0-0-4","lang":"EN","progressBarLocation":"top","progressBarType":"none","pages":[{"name":"page1","elements":[{"type":"radiogroup","name":"whoProvidingInfo","title":"Complete the following statement. I am answering this survey about...","isSubmitted":false,"isImmutable":true,"isRequired":true,"image":"/images/HI/3-1.png","choices":[{"value":"myself","text":"Myself"},{"value":"parentGuardian","text":"My child"},{"value":"caregiver","text":"Another adult for whom I provide care"},{"value":"other","text":"Other"}]},{"type":"text","name":"question2","visible":false,"visibleIf":"{whoProvidingInfo} = 'other'","title":"Other","inputType":"text","placeHolder":"please describe your relationship to this person"}]},{"name":"page2","elements":[{"type":"radiogroup","category":"Emergency Care","name":"emergencyCare","title":"How many times have you received care in an emergency room (ER) over the last 12 months?","subtitle":"If you are in the ER now, please count your current visit. Please do not count urgent care visits.","isSubmitted":false,"isImmutable":true,"isRequired":true,"image":"/images/HI/3-2.png","choices":[{"value":"0","text":"0 times"},{"value":"1","text":"1 time"},{"value":"2","text":"2 or more times"}]}]},{"name":"page3","elements":[{"type":"radiogroup","name":"livingLocations","title":"Do you live in any of the following locations?","isSubmitted":false,"isImmutable":true,"isRequired":true,"image":"/images/HI/3-3.png","choices":[{"value":"assistedLiving","text":"I live in an assisted living facility (this is a long-term care option that provides personal care support services such as meals, bathing, dressing, or medications)."},{"value":"nursingHome","text":"I live in a nursing home (this is a long-term care option that provides 24 hours a day medical care that would not be possible in other housing)."},{"value":"rehabCenter","text":"I live in a rehabilitation center or skilled nursing facility (these are centers that help a person heal after illness or injury by providing treatments like physical, occupational, or speech therapy)."},{"value":"inpatientRecovery","text":"I live in an in-patient recovery program for a drug or alcohol problem."},{"value":"psychiatricInstitute","text":"I live in a psychiatric facility (this is a health care facility providing treatment to those with behavioral or emotional illnesses)."},{"value":"correctionalFacility","text":"I live in a correctional facility (such as a jail, prison, detention center, or penitentiary)."},{"value":"noneOfTheAbove","text":"None of the above."}]}]},{"name":"page4","elements":[{"type":"radiogroup","name":"housingSituation","title":"What is your living situation today?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-4.png","choices":[{"value":"haveHousing","text":"I have a steady place to live."},{"value":"haveHousingButWorried","text":"I have a place to live today, but I am worried about losing it in the future."},{"value":"noHousing","text":"I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)."}]}]},{"name":"page5","elements":[{"type":"checkbox","name":"housingProblems","title":"Think about the place you live. Do you have problems with any of the following?","subtitle":"CHOOSE ALL THAT APPLY","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-5.png","choices":[{"value":"pests","text":"Pests such as bugs, ants, or mice"},{"value":"mold","text":"Mold"},{"value":"leadPaintPipes","text":"Lead paint or pipes"},{"value":"inadequateHeat","text":"Lack of Heat"},{"value":"ovenOrStove","text":"Oven or stove not working"},{"value":"smokeDetectors","text":"Smoke detectors missing or not working"},{"value":"waterLeaks","text":"Water leaks"},{"value":"none","text":"None of the above"}]}]},{"name":"page6","elements":[{"type":"radiogroup","name":"foodWorries","title":"Within the past 12 months, you worried that your food would run out before you got money to buy more.","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/question6.png","choices":[{"value":"often","text":"Often true"},{"value":"sometimes","text":"Sometimes true"},{"value":"never","text":"Never true"}]}]},{"name":"page7","elements":[{"type":"radiogroup","name":"outOfFood","title":"Within the past 12 months, the food you bought just didn't last and you didn't have money to get more.","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/question7.png","choices":[{"value":"often","text":"Often true"},{"value":"sometimes","text":"Sometimes true"},{"value":"never","text":"Never true"}]}]},{"name":"page8","elements":[{"type":"radiogroup","name":"lackOfTransport","title":"In the past 12 months, has lack of transportation kept you from medical appointments, meetings, work, or from getting to things needed for daily living?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-2.png","choices":[{"value":"yes","text":"Yes"},{"value":"no","text":"No"}]}]},{"name":"page9","elements":[{"type":"radiogroup","name":"shutOffUtilitiesThreat","title":"In the past 12 months has the electric, gas, oil, or water company threatened to shut off services in your home?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-3.png","choices":[{"value":"yes","text":"Yes"},{"value":"no","text":"No"},{"value":"already","text":"Already shut off "}]}]},{"name":"page10","elements":[{"type":"radiogroup","name":"violence","title":"How often does anyone, including family and friends, physically hurt you?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-4.png","choices":[{"value":"1","text":"Never"},{"value":"2","text":"Rarely"},{"value":"3","text":"Sometimes"},{"value":"4","text":"Fairly often"},{"value":"5","text":"Frequently"}]}]},{"name":"page11","elements":[{"type":"radiogroup","name":"insults","title":"How often does anyone, including family and friends, insult or talk down to you?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-5.png","choices":[{"value":"1","text":"Never"},{"value":"2","text":"Rarely"},{"value":"3","text":"Sometimes"},{"value":"4","text":"Fairly often"},{"value":"5","text":"Frequently"}]}]},{"name":"page12","elements":[{"type":"radiogroup","name":"threatenHarm","title":"How often does anyone, including family and friends, threaten you with harm?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-6.png","choices":[{"value":"1","text":"Never"},{"value":"2","text":"Rarely"},{"value":"3","text":"Sometimes"},{"value":"4","text":"Fairly often"},{"value":"5","text":"Frequently"}]}]},{"name":"page13","elements":[{"type":"radiogroup","name":"screaming","title":"How often does anyone, including family and friends, scream or curse at you?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-1.png","choices":[{"value":"1","text":"Never"},{"value":"2","text":"Rarely"},{"value":"3","text":"Sometimes"},{"value":"4","text":"Fairly often"},{"value":"5","text":"Frequently"}]}]},{"name":"page14","elements":[{"type":"radiogroup","name":"sex","title":"What is your sex?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/question14.png","choices":[{"value":"m","text":"Male"},{"value":"f","text":"Female"}]}]},{"name":"page15","elements":[{"type":"checkbox","name":"hispanic","title":"Are you Hispanic, Latino/a, or Spanish origin?","subtitle":"CHOOSE ALL THAT APPLY","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/question15.png","choices":[{"value":"no","text":"No, not of Hispanic, Latino, or Spanish origin"},{"value":"mexicanChicano","text":"Yes, Mexican, Mexican American, Chicano"},{"value":"puertoRican","text":"Yes, Puerto Rican"},{"value":"cuban","text":"Yes, Cuban"},{"value":"otherHispanic","text":"Yes, another Hispanic, Latino, or Spanish origin"}]}]},{"name":"page16","elements":[{"type":"checkbox","name":"race","title":"Which one or more of the following would you say is your race?","subtitle":"CHOOSE ALL THAT APPLY","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/question16.png","choices":[{"value":"nativeAmerican","text":"American Indian/Alaska Native"},{"value":"asian","text":"Asian"},{"value":"black","text":"Black or African American"},{"value":"hawaiianOrPacific","text":"Native Hawaiian/Other Pacific Islander"},{"value":"white","text":"White"},{"value":"other","text":"Other"}]},{"type":"text","name":"question16","visible":false,"visibleIf":"{race} = 'other'","title":"Other","inputType":"text","placeHolder":"specify"}]},{"name":"page17","elements":[{"type":"radiogroup","name":"school","title":"What is the highest grade or year of school you completed?","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-5.png","choices":[{"value":"none","text":"Never attended school or only attended kindergarten"},{"value":"<8th","text":"Grades 1 through 8 (Elementary)"},{"value":"someHS","text":"Grades 9 through 11 (Some high school)"},{"value":"HSGrad","text":"Grade 12 or GED (High school graduate, diploma, or alternate credential)"},{"value":"vocational","text":"College 1 year to 3 years (Some college, Associate’s degree, trade, vocational, or technical school)"},{"value":"college","text":"College 4 years or more (College graduate)"}]}]},{"name":"page18","elements":[{"type":"text","name":"peopleInHome","title":"How many people do you currently live with?","subtitle":"Please count yourself, your spouse or partner, your children, and any other dependents. If you live alone, put 1.","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-6.png","inputType":"number","placeHolder":"number of people"}]},{"name":"page19","elements":[{"type":"radiogroup","name":"income","title":"What is your annual household income from all sources?","subtitle":"Please include your income as well as the income for everyone you counted above in your household.","isSubmitted":false,"isImmutable":false,"isRequired":false,"image":"/images/HI/3-1.png","choices":[{"value":"<10k","text":"Less than $10,000"},{"value":"10-15k","text":"$10,000 to less than $15,000"},{"value":"15-20k","text":"$15,000  to less than $20,000"},{"value":"20-25k","text":"$20,000 to less than $25,000"},{"value":"25-35k","text":"$25,000 to less than $35,000"},{"value":"35-50k","text":"$35,000 to less than $50,000"},{"value":"50-75k","text":"$50,000 to less than $75,000"},{"value":">75k","text":"$75,000 or more"}]}]}]},"stratification":{"page2.emergencyCare":["2"],"page4.housingSituation":["haveHousingButWorried","noHousing"],"page5.housingProblems":["pests","mold","leadPaintPipes","inadequateHeat","ovenOrStove","smokeDetectors","waterLeaks"],"page6.foodWorries":["often","sometimes"],"page7.outOfFood":["often","sometimes"],"page8.lackOfTransport":["yes"],"page9.shutOffUtilitiesThreat":["yes","already"]}}
+{
+	"survey": {
+		"title": "Community Dwelling Beneficiary, Self Assessment",
+		"stratification_file": "data/HI/stratification_files/0-0-2/survey_stratification",
+		"version": "0-0-4",
+		"lang": "EN",
+		"progressBarLocation": "top",
+		"progressBarType": "none",
+        "thankYouPageText": "<h2>Please return this tablet back to the front desk.<\/h2>",
+		"pages": [
+			{
+				"name": "page1",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "whoProvidingInfo",
+						"title": "Complete the following statement. I am answering this survey about...",
+						"isSubmitted": false,
+						"isImmutable": true,
+						"isRequired": true,
+						"image": "/images/HI/3-1.png",
+						"choices": [
+							{
+								"value": "myself",
+								"text": "Myself"
+							},
+							{
+								"value": "parentGuardian",
+								"text": "My child"
+							},
+							{
+								"value": "caregiver",
+								"text": "Another adult for whom I provide care"
+							},
+							{
+								"value": "other",
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"name": "question2",
+						"visible": false,
+						"visibleIf": "{whoProvidingInfo} = 'other'",
+						"title": "Other",
+						"inputType": "text",
+						"placeHolder": "please describe your relationship to this person"
+					}
+				]
+			},
+			{
+				"name": "page2",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"category": "Emergency Care",
+						"name": "emergencyCare",
+						"title": "How many times have you received care in an emergency room (ER) over the last 12 months?",
+						"subtitle": "If you are in the ER now, please count your current visit. Please do not count urgent care visits.",
+						"isSubmitted": false,
+						"isImmutable": true,
+						"isRequired": true,
+						"image": "/images/HI/3-2.png",
+						"choices": [
+							{
+								"value": "0",
+								"text": "0 times"
+							},
+							{
+								"value": "1",
+								"text": "1 time"
+							},
+							{
+								"value": "2",
+								"text": "2 or more times"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page3",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "livingLocations",
+						"title": "Do you live in any of the following locations?",
+						"isSubmitted": false,
+						"isImmutable": true,
+						"isRequired": true,
+						"image": "/images/HI/3-3.png",
+						"choices": [
+							{
+								"value": "assistedLiving",
+								"text": "I live in an assisted living facility (this is a long-term care option that provides personal care support services such as meals, bathing, dressing, or medications)."
+							},
+							{
+								"value": "nursingHome",
+								"text": "I live in a nursing home (this is a long-term care option that provides 24 hours a day medical care that would not be possible in other housing)."
+							},
+							{
+								"value": "rehabCenter",
+								"text": "I live in a rehabilitation center or skilled nursing facility (these are centers that help a person heal after illness or injury by providing treatments like physical, occupational, or speech therapy)."
+							},
+							{
+								"value": "inpatientRecovery",
+								"text": "I live in an in-patient recovery program for a drug or alcohol problem."
+							},
+							{
+								"value": "psychiatricInstitute",
+								"text": "I live in a psychiatric facility (this is a health care facility providing treatment to those with behavioral or emotional illnesses)."
+							},
+							{
+								"value": "correctionalFacility",
+								"text": "I live in a correctional facility (such as a jail, prison, detention center, or penitentiary)."
+							},
+							{
+								"value": "noneOfTheAbove",
+								"text": "None of the above."
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page4",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "housingSituation",
+						"title": "What is your living situation today?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-4.png",
+						"choices": [
+							{
+								"value": "haveHousing",
+								"text": "I have a steady place to live."
+							},
+							{
+								"value": "haveHousingButWorried",
+								"text": "I have a place to live today, but I am worried about losing it in the future."
+							},
+							{
+								"value": "noHousing",
+								"text": "I do not have a steady place to live (I am temporarily staying with others, in a hotel, in a shelter, living outside on the street, on a beach, in a car, abandoned building, bus or train station, or in a park)."
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page5",
+				"elements": [
+					{
+						"type": "checkbox",
+						"name": "housingProblems",
+						"title": "Think about the place you live. Do you have problems with any of the following?",
+						"subtitle": "CHOOSE ALL THAT APPLY",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-5.png",
+						"choices": [
+							{
+								"value": "pests",
+								"text": "Pests such as bugs, ants, or mice"
+							},
+							{
+								"value": "mold",
+								"text": "Mold"
+							},
+							{
+								"value": "leadPaintPipes",
+								"text": "Lead paint or pipes"
+							},
+							{
+								"value": "inadequateHeat",
+								"text": "Lack of Heat"
+							},
+							{
+								"value": "ovenOrStove",
+								"text": "Oven or stove not working"
+							},
+							{
+								"value": "smokeDetectors",
+								"text": "Smoke detectors missing or not working"
+							},
+							{
+								"value": "waterLeaks",
+								"text": "Water leaks"
+							},
+							{
+								"value": "none",
+								"text": "None of the above"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page6",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "foodWorries",
+						"title": "Within the past 12 months, you worried that your food would run out before you got money to buy more.",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/question6.png",
+						"choices": [
+							{
+								"value": "often",
+								"text": "Often true"
+							},
+							{
+								"value": "sometimes",
+								"text": "Sometimes true"
+							},
+							{
+								"value": "never",
+								"text": "Never true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page7",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "outOfFood",
+						"title": "Within the past 12 months, the food you bought just didn't last and you didn't have money to get more.",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/question7.png",
+						"choices": [
+							{
+								"value": "often",
+								"text": "Often true"
+							},
+							{
+								"value": "sometimes",
+								"text": "Sometimes true"
+							},
+							{
+								"value": "never",
+								"text": "Never true"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page8",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "lackOfTransport",
+						"title": "In the past 12 months, has lack of transportation kept you from medical appointments, meetings, work, or from getting to things needed for daily living?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-2.png",
+						"choices": [
+							{
+								"value": "yes",
+								"text": "Yes"
+							},
+							{
+								"value": "no",
+								"text": "No"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page9",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "shutOffUtilitiesThreat",
+						"title": "In the past 12 months has the electric, gas, oil, or water company threatened to shut off services in your home?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-3.png",
+						"choices": [
+							{
+								"value": "yes",
+								"text": "Yes"
+							},
+							{
+								"value": "no",
+								"text": "No"
+							},
+							{
+								"value": "already",
+								"text": "Already shut off "
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page10",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "violence",
+						"title": "How often does anyone, including family and friends, physically hurt you?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-4.png",
+						"choices": [
+							{
+								"value": "1",
+								"text": "Never"
+							},
+							{
+								"value": "2",
+								"text": "Rarely"
+							},
+							{
+								"value": "3",
+								"text": "Sometimes"
+							},
+							{
+								"value": "4",
+								"text": "Fairly often"
+							},
+							{
+								"value": "5",
+								"text": "Frequently"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page11",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "insults",
+						"title": "How often does anyone, including family and friends, insult or talk down to you?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-5.png",
+						"choices": [
+							{
+								"value": "1",
+								"text": "Never"
+							},
+							{
+								"value": "2",
+								"text": "Rarely"
+							},
+							{
+								"value": "3",
+								"text": "Sometimes"
+							},
+							{
+								"value": "4",
+								"text": "Fairly often"
+							},
+							{
+								"value": "5",
+								"text": "Frequently"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page12",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "threatenHarm",
+						"title": "How often does anyone, including family and friends, threaten you with harm?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-6.png",
+						"choices": [
+							{
+								"value": "1",
+								"text": "Never"
+							},
+							{
+								"value": "2",
+								"text": "Rarely"
+							},
+							{
+								"value": "3",
+								"text": "Sometimes"
+							},
+							{
+								"value": "4",
+								"text": "Fairly often"
+							},
+							{
+								"value": "5",
+								"text": "Frequently"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page13",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "screaming",
+						"title": "How often does anyone, including family and friends, scream or curse at you?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-1.png",
+						"choices": [
+							{
+								"value": "1",
+								"text": "Never"
+							},
+							{
+								"value": "2",
+								"text": "Rarely"
+							},
+							{
+								"value": "3",
+								"text": "Sometimes"
+							},
+							{
+								"value": "4",
+								"text": "Fairly often"
+							},
+							{
+								"value": "5",
+								"text": "Frequently"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page14",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "sex",
+						"title": "What is your sex?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/question14.png",
+						"choices": [
+							{
+								"value": "m",
+								"text": "Male"
+							},
+							{
+								"value": "f",
+								"text": "Female"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page15",
+				"elements": [
+					{
+						"type": "checkbox",
+						"name": "hispanic",
+						"title": "Are you Hispanic, Latino/a, or Spanish origin?",
+						"subtitle": "CHOOSE ALL THAT APPLY",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/question15.png",
+						"choices": [
+							{
+								"value": "no",
+								"text": "No, not of Hispanic, Latino, or Spanish origin"
+							},
+							{
+								"value": "mexicanChicano",
+								"text": "Yes, Mexican, Mexican American, Chicano"
+							},
+							{
+								"value": "puertoRican",
+								"text": "Yes, Puerto Rican"
+							},
+							{
+								"value": "cuban",
+								"text": "Yes, Cuban"
+							},
+							{
+								"value": "otherHispanic",
+								"text": "Yes, another Hispanic, Latino, or Spanish origin"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page16",
+				"elements": [
+					{
+						"type": "checkbox",
+						"name": "race",
+						"title": "Which one or more of the following would you say is your race?",
+						"subtitle": "CHOOSE ALL THAT APPLY",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/question16.png",
+						"choices": [
+							{
+								"value": "nativeAmerican",
+								"text": "American Indian/Alaska Native"
+							},
+							{
+								"value": "asian",
+								"text": "Asian"
+							},
+							{
+								"value": "black",
+								"text": "Black or African American"
+							},
+							{
+								"value": "hawaiianOrPacific",
+								"text": "Native Hawaiian/Other Pacific Islander"
+							},
+							{
+								"value": "white",
+								"text": "White"
+							},
+							{
+								"value": "other",
+								"text": "Other"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"name": "question16",
+						"visible": false,
+						"visibleIf": "{race} = 'other'",
+						"title": "Other",
+						"inputType": "text",
+						"placeHolder": "specify"
+					}
+				]
+			},
+			{
+				"name": "page17",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "school",
+						"title": "What is the highest grade or year of school you completed?",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-5.png",
+						"choices": [
+							{
+								"value": "none",
+								"text": "Never attended school or only attended kindergarten"
+							},
+							{
+								"value": "<8th",
+								"text": "Grades 1 through 8 (Elementary)"
+							},
+							{
+								"value": "someHS",
+								"text": "Grades 9 through 11 (Some high school)"
+							},
+							{
+								"value": "HSGrad",
+								"text": "Grade 12 or GED (High school graduate, diploma, or alternate credential)"
+							},
+							{
+								"value": "vocational",
+								"text": "College 1 year to 3 years (Some college, Associate’s degree, trade, vocational, or technical school)"
+							},
+							{
+								"value": "college",
+								"text": "College 4 years or more (College graduate)"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "page18",
+				"elements": [
+					{
+						"type": "text",
+						"name": "peopleInHome",
+						"title": "How many people do you currently live with?",
+						"subtitle": "Please count yourself, your spouse or partner, your children, and any other dependents. If you live alone, put 1.",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-6.png",
+						"inputType": "number",
+						"placeHolder": "number of people"
+					}
+				]
+			},
+			{
+				"name": "page19",
+				"elements": [
+					{
+						"type": "radiogroup",
+						"name": "income",
+						"title": "What is your annual household income from all sources?",
+						"subtitle": "Please include your income as well as the income for everyone you counted above in your household.",
+						"isSubmitted": false,
+						"isImmutable": false,
+						"isRequired": false,
+						"image": "/images/HI/3-1.png",
+						"choices": [
+							{
+								"value": "<10k",
+								"text": "Less than $10,000"
+							},
+							{
+								"value": "10-15k",
+								"text": "$10,000 to less than $15,000"
+							},
+							{
+								"value": "15-20k",
+								"text": "$15,000  to less than $20,000"
+							},
+							{
+								"value": "20-25k",
+								"text": "$20,000 to less than $25,000"
+							},
+							{
+								"value": "25-35k",
+								"text": "$25,000 to less than $35,000"
+							},
+							{
+								"value": "35-50k",
+								"text": "$35,000 to less than $50,000"
+							},
+							{
+								"value": "50-75k",
+								"text": "$50,000 to less than $75,000"
+							},
+							{
+								"value": ">75k",
+								"text": "$75,000 or more"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"stratification": {
+		"page2.emergencyCare": [
+			"2"
+		],
+		"page4.housingSituation": [
+			"haveHousingButWorried",
+			"noHousing"
+		],
+		"page5.housingProblems": [
+			"pests",
+			"mold",
+			"leadPaintPipes",
+			"inadequateHeat",
+			"ovenOrStove",
+			"smokeDetectors",
+			"waterLeaks"
+		],
+		"page6.foodWorries": [
+			"often",
+			"sometimes"
+		],
+		"page7.outOfFood": [
+			"often",
+			"sometimes"
+		],
+		"page8.lackOfTransport": [
+			"yes"
+		],
+		"page9.shutOffUtilitiesThreat": [
+			"yes",
+			"already"
+		]
+	}
+}

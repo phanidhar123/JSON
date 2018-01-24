@@ -6,7 +6,7 @@
 		"lang": "EN",
 		"progressBarLocation": "top",
 		"progressBarType": "none",
-        "thankYouPageText": "<h2>Mahalo! Now that your answers have been recorded, please:<\/h2><ul style=\"list-style-type:disc;\"><li>Click here to <a href=\"http:\/\/www.surveygizmo.com\/s3\/4132646\/2018-02-myConnections-Post-Test\">tell us about your experience using this tablet<\/a><\/li><li>Return this tablet to the front desk when you are finished<\/li><\/ul>",
+        "thankYouPageText": "<h2>Mahalo! Now that your answers have been recorded, please:<\/h2><ul style=\"list-style-type:disc;margin-left:30px;\"><li>Click here to <a href=\"http:\/\/www.surveygizmo.com\/s3\/4132646\/2018-02-myConnections-Post-Test\">tell us about your experience using this tablet<\/a><\/li><li>Return this tablet to the front desk when you are finished<\/li><\/ul>",
 		"thankYouPageButtonText": "EXIT",
 		"pages": [
 			{
